@@ -1,0 +1,156 @@
+/* Body */
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.body{  
+    margin: 0px;
+}
+
+.container{
+   background-color: rgb(250, 245, 255);
+   max-width: 1024px;
+   margin: auto;
+}
+
+
+
+/* header */
+
+header {
+    height: 150px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    max-height: 100px;
+    margin: 0px 5px 5px 5px;
+  border-radius: 100%;
+}
+
+
+
+/* Bio */
+
+.bio{
+    display: flex;
+    margin: 10px 50px;
+}
+
+.bio-img{
+    max-height: 200px; 
+}
+
+.bio-column2 {
+    margin-left: 25px;
+  width: 100%;
+}
+
+.name{
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-h2{
+    margin: 0px;
+    color: rgb(99, 0, 99);
+}
+
+.choose{
+    background-color: rgba(192, 192, 192, 0.25);
+    margin-top: 10px;
+    padding: 10px 22px 10px 25px;
+}
+
+.choose-h3{
+    margin: 0px;
+}
+
+.choose-ul{
+    margin: 0px;
+    padding: 12px 18px;
+    list-style-type: square;
+}
+    
+
+/* Tech */
+
+.tech{ 
+    display: flex;
+    margin: 25px 50px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+figure {
+    border: 1px;
+    display: flex;
+    flex-flow: column;
+    max-width: 220px;
+    margin: 0;
+}
+
+figure img {
+    max-width: 200px;
+    max-height: 200px;
+    margin: auto;
+    z-index: 1;
+}
+
+figcaption {
+    background-color: rgba(99, 0, 99, 0.75);
+    color: rgb(250, 245, 255);
+    width: 180px;
+    white-space: initial;
+    padding: 10px;
+    position: relative;
+    bottom: 35px;
+    z-index: 2;
+}
+
+
+/* Learn */
+.learn{
+    margin: 10px 50px;
+}
+
+.learn-h2{
+    Margin: 5px 0px;
+    color: rgb(99, 0, 99);
+}
+
+.learn-java{
+    background-color: rgba(192, 192, 192, 0.25);
+    margin-top: 10px;
+    padding: 10px 25px;
+}
+
+.learn-javah3{
+    Margin: 0px;
+}
+
+.learn-javap{
+    margin: 0px;
+    padding: 16px 0px;
+}
+/* Footer */
+
+footer {
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16;
+}
+
+footer p{
+    margin: 25px;
+}
